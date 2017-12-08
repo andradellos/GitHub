@@ -1,0 +1,24 @@
+﻿<script>
+
+	var url =  "/forrolaincasaEsperandoNaJanela.mp3";
+	var context = new (window.AudioContext || window.webkitAudioContext)();
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', url, true);
+	xhr.responseType = 'arraybuffer';
+
+	xhr.onload = function () {
+		context.decodeAudioData(xhr.response, function (audio) {
+			var buffer = context.createBufferSource();
+			buffer.connect(context.destination);
+			buffer.buffer = audio;
+			buffer.start(0);
+		});
+	};
+	xhr.send();
+
+</script>
+
+
+<!--<audio controls="controls">
+	<source src="forrolaincasaEsperandoNaJanela.mp3" type="audio/mpeg" />
+</audio>-->

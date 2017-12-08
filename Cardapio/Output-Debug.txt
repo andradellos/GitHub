@@ -1,0 +1,435 @@
+﻿InspectorDebugSession(5): StateChange: Start -> EntryPointBreakpointRegistered
+InspectorDebugSession(5): Constructed
+Android application is debugging.
+08-06 12:22:31.146 E/Zygote  (12770): MountEmulatedStorage()
+08-06 12:22:31.146 E/Zygote  (12770): v2
+08-06 12:22:31.146 I/SELinux (12770): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-J200M_5.1.1 ver=51
+08-06 12:22:31.146 I/SELinux (12770): Function: selinux_compare_spd_ram , priority [2] , priority version is VE=SEPF_SM-J200M_5.1.1_0069
+08-06 12:22:31.146 I/libpersona(12770): KNOX_SDCARD checking this for 10164
+08-06 12:22:31.146 I/libpersona(12770): KNOX_SDCARD not a persona
+08-06 12:22:31.151 E/Zygote  (12770): accessInfo : 0
+08-06 12:22:31.156 E/SELinux (12770): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+08-06 12:22:31.156 I/art     (12770): Late-enabling -Xcheck:jni
+08-06 12:22:31.186 D/TimaKeyStoreProvider(12770): TimaSignature is unavailable
+08-06 12:22:31.191 D/ActivityThread(12770): Added TimaKeyStore provider
+08-06 12:22:31.291 W/monodroid(12770): Creating public update directory: `/data/data/Cardapio.Cardapio/files/.__override__`
+08-06 12:22:31.296 W/monodroid(12770): Using override path: /data/data/Cardapio.Cardapio/files/.__override__
+08-06 12:22:31.296 W/monodroid(12770): Using override path: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__
+08-06 12:22:31.296 W/monodroid(12770): Trying to load sgen from: /data/data/Cardapio.Cardapio/files/.__override__/libmonosgen-2.0.so
+08-06 12:22:31.296 W/monodroid(12770): Trying to load sgen from: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/libmonosgen-2.0.so
+08-06 12:22:31.296 W/monodroid(12770): Trying to load sgen from: /data/app/Cardapio.Cardapio-1/lib/arm/libmonosgen-2.0.so
+08-06 12:22:31.296 W/monodroid(12770): Trying to load sgen from: /data/data/Cardapio.Cardapio/files/.__override__/links/libmonosgen-2.0.so
+08-06 12:22:31.316 W/monodroid-debug(12770): Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:29234,server=y,embedding=1
+08-06 12:22:31.346 W/monodroid-debug(12770): Accepted stdout connection: 28
+08-06 12:22:32.111 D/Mono    (12770): Image addref mscorlib[0xb45c40a0] -> mscorlib.dll[0xb4440c00]: 2
+08-06 12:22:32.116 D/Mono    (12770): Prepared to set up assembly 'mscorlib' (mscorlib.dll)
+08-06 12:22:32.116 D/Mono    (12770): AOT: image 'mscorlib.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-mscorlib.dll.so" not found
+08-06 12:22:32.116 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/mscorlib.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-mscorlib.dll.so" not found
+08-06 12:22:32.116 D/Mono    (12770): Config attempting to parse: 'mscorlib.dll.config'.
+08-06 12:22:32.121 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/mscorlib/mscorlib.config'.
+08-06 12:22:32.216 D/Mono    (12770): Assembly mscorlib[0xb45c40a0] added to domain RootDomain, ref_count=1
+InspectorDebugSession(5): HandleTargetEvent: TargetReady
+08-06 12:24:02.411 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll'.
+08-06 12:24:02.411 D/Mono    (12770): Image addref Cardapio[0xb45c41c0] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll[0xb4441b00]: 2
+08-06 12:24:02.411 D/Mono    (12770): Prepared to set up assembly 'Cardapio' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll)
+08-06 12:24:02.411 D/Mono    (12770): Assembly Cardapio[0xb45c41c0] added to domain RootDomain, ref_count=1
+08-06 12:24:02.416 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-Cardapio.dll.so" not found
+08-06 12:24:02.416 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/Cardapio.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-Cardapio.dll.so" not found
+08-06 12:24:02.416 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll'.
+08-06 12:24:02.416 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll.config'.
+08-06 12:24:02.416 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/Cardapio/Cardapio.config'.
+08-06 12:24:02.421 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll'.
+08-06 12:24:02.421 D/Mono    (12770): Image addref SQLite-net[0xb45c4460] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll[0xb4442000]: 2
+08-06 12:24:02.421 D/Mono    (12770): Prepared to set up assembly 'SQLite-net' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll)
+08-06 12:24:02.421 D/Mono    (12770): Assembly SQLite-net[0xb45c4460] added to domain RootDomain, ref_count=1
+08-06 12:24:02.421 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLite-net.dll.so" not found
+08-06 12:24:02.426 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLite-net.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLite-net.dll.so" not found
+08-06 12:24:02.426 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll'.
+08-06 12:24:02.426 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll.config'.
+08-06 12:24:02.426 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLite-net/SQLite-net.config'.
+08-06 12:24:02.426 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll'.
+08-06 12:24:02.426 D/Mono    (12770): Image addref SQLitePCLRaw.batteries_green[0xb45c4160] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll[0xb4443e00]: 2
+08-06 12:24:02.426 D/Mono    (12770): Prepared to set up assembly 'SQLitePCLRaw.batteries_green' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll)
+08-06 12:24:02.426 D/Mono    (12770): Assembly SQLitePCLRaw.batteries_green[0xb45c4160] added to domain RootDomain, ref_count=1
+08-06 12:24:02.431 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.batteries_green.dll.so" not found
+08-06 12:24:02.431 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.batteries_green.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.batteries_green.dll.so" not found
+08-06 12:24:02.431 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll'.
+08-06 12:24:02.431 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll.config'.
+08-06 12:24:02.431 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.batteries_green/SQLitePCLRaw.batteries_green.config'.
+08-06 12:24:02.431 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll'.
+08-06 12:24:02.436 D/Mono    (12770): Image addref SQLitePCLRaw.batteries_v2[0xb45c4100] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll[0xb4444300]: 2
+08-06 12:24:02.436 D/Mono    (12770): Prepared to set up assembly 'SQLitePCLRaw.batteries_v2' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll)
+08-06 12:24:02.436 D/Mono    (12770): Assembly SQLitePCLRaw.batteries_v2[0xb45c4100] added to domain RootDomain, ref_count=1
+08-06 12:24:02.436 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.batteries_v2.dll.so" not found
+08-06 12:24:02.436 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.batteries_v2.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.batteries_v2.dll.so" not found
+08-06 12:24:02.436 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll'.
+08-06 12:24:02.436 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll.config'.
+08-06 12:24:02.436 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.batteries_v2/SQLitePCLRaw.batteries_v2.config'.
+08-06 12:24:02.441 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll'.
+08-06 12:24:02.441 D/Mono    (12770): Image addref SQLitePCLRaw.core[0xb45c46a0] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll[0xb4444800]: 2
+08-06 12:24:02.441 D/Mono    (12770): Prepared to set up assembly 'SQLitePCLRaw.core' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll)
+08-06 12:24:02.441 D/Mono    (12770): Assembly SQLitePCLRaw.core[0xb45c46a0] added to domain RootDomain, ref_count=1
+08-06 12:24:02.441 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.core.dll.so" not found
+08-06 12:24:02.446 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.core.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.core.dll.so" not found
+08-06 12:24:02.446 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll'.
+08-06 12:24:02.446 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll.config'.
+08-06 12:24:02.446 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.core/SQLitePCLRaw.core.config'.
+08-06 12:24:02.446 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll'.
+08-06 12:24:02.446 D/Mono    (12770): Image addref SQLitePCLRaw.lib.e_sqlite3[0xb45c44c0] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll[0xb4444d00]: 2
+08-06 12:24:02.446 D/Mono    (12770): Prepared to set up assembly 'SQLitePCLRaw.lib.e_sqlite3' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll)
+08-06 12:24:02.446 D/Mono    (12770): Assembly SQLitePCLRaw.lib.e_sqlite3[0xb45c44c0] added to domain RootDomain, ref_count=1
+08-06 12:24:02.451 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.lib.e_sqlite3.dll.so" not found
+08-06 12:24:02.451 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.lib.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.lib.e_sqlite3.dll.so" not found
+08-06 12:24:02.451 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll'.
+08-06 12:24:02.451 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll.config'.
+08-06 12:24:02.451 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.lib.e_sqlite3/SQLitePCLRaw.lib.e_sqlite3.config'.
+08-06 12:24:02.451 D/Mono    (12770): Assembly Loader probing location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll'.
+08-06 12:24:02.451 D/Mono    (12770): Image addref SQLitePCLRaw.provider.e_sqlite3[0xb45c45e0] -> /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll[0xb4445200]: 2
+08-06 12:24:02.451 D/Mono    (12770): Prepared to set up assembly 'SQLitePCLRaw.provider.e_sqlite3' (/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll)
+08-06 12:24:02.451 D/Mono    (12770): Assembly SQLitePCLRaw.provider.e_sqlite3[0xb45c45e0] added to domain RootDomain, ref_count=1
+08-06 12:24:02.456 D/Mono    (12770): AOT: image '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.provider.e_sqlite3.dll.so" not found
+08-06 12:24:02.456 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.provider.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-SQLitePCLRaw.provider.e_sqlite3.dll.so" not found
+08-06 12:24:02.456 D/Mono    (12770): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll'.
+08-06 12:24:02.456 D/Mono    (12770): Config attempting to parse: '/storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll.config'.
+08-06 12:24:02.456 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.provider.e_sqlite3/SQLitePCLRaw.provider.e_sqlite3.config'.
+08-06 12:24:02.456 W/monodroid-gc(12770): GREF GC Threshold: 46080
+08-06 12:24:02.466 D/Mono    (12770): Image addref Mono.Android[0xb45c4700] -> Mono.Android.dll[0xb4445700]: 2
+08-06 12:24:02.471 D/Mono    (12770): Prepared to set up assembly 'Mono.Android' (Mono.Android.dll)
+08-06 12:24:02.471 D/Mono    (12770): Assembly Mono.Android[0xb45c4700] added to domain RootDomain, ref_count=1
+08-06 12:24:02.476 D/Mono    (12770): AOT: image 'Mono.Android.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-Mono.Android.dll.so" not found
+08-06 12:24:02.476 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/Mono.Android.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-Mono.Android.dll.so" not found
+08-06 12:24:02.476 D/Mono    (12770): Config attempting to parse: 'Mono.Android.dll.config'.
+08-06 12:24:02.476 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/Mono.Android/Mono.Android.config'.
+08-06 12:24:02.501 D/Mono    (12770): Assembly Ref addref Mono.Android[0xb45c4700] -> mscorlib[0xb45c40a0]: 2
+08-06 12:24:02.501 D/Mono    (12770): Image addref Java.Interop[0xb45c47c0] -> Java.Interop.dll[0xb4445c00]: 2
+08-06 12:24:02.501 D/Mono    (12770): Prepared to set up assembly 'Java.Interop' (Java.Interop.dll)
+08-06 12:24:02.501 D/Mono    (12770): Assembly Java.Interop[0xb45c47c0] added to domain RootDomain, ref_count=1
+08-06 12:24:02.501 D/Mono    (12770): AOT: image 'Java.Interop.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-Java.Interop.dll.so" not found
+08-06 12:24:02.501 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/Java.Interop.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-Java.Interop.dll.so" not found
+08-06 12:24:02.501 D/Mono    (12770): Config attempting to parse: 'Java.Interop.dll.config'.
+08-06 12:24:02.501 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/Java.Interop/Java.Interop.config'.
+08-06 12:24:02.501 D/Mono    (12770): Assembly Ref addref Mono.Android[0xb45c4700] -> Java.Interop[0xb45c47c0]: 2
+08-06 12:24:02.506 D/Mono    (12770): Image addref System.Runtime[0xb45c4820] -> System.Runtime.dll[0xb4446100]: 2
+08-06 12:24:02.506 D/Mono    (12770): Prepared to set up assembly 'System.Runtime' (System.Runtime.dll)
+08-06 12:24:02.506 D/Mono    (12770): Assembly System.Runtime[0xb45c4820] added to domain RootDomain, ref_count=1
+08-06 12:24:02.506 D/Mono    (12770): AOT: image 'System.Runtime.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Runtime.dll.so" not found
+08-06 12:24:02.506 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Runtime.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Runtime.dll.so" not found
+08-06 12:24:02.506 D/Mono    (12770): Config attempting to parse: 'System.Runtime.dll.config'.
+08-06 12:24:02.506 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+08-06 12:24:02.506 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Runtime[0xb45c4820]: 2
+08-06 12:24:02.506 D/Mono    (12770): Assembly Ref addref System.Runtime[0xb45c4820] -> mscorlib[0xb45c40a0]: 3
+08-06 12:24:02.516 W/monodroid(12770): Calling into managed runtime init
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/Cardapio.dll
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLite-net.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_green.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.batteries_v2.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.core.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll [External]
+Loaded assembly: Mono.Android.dll [External]
+Loaded assembly: Java.Interop.dll [External]
+Loaded assembly: System.Runtime.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnv.RegisterJniNatives(System.IntPtr, int, System.IntPtr, System.IntPtr, int)' to [0x0](no debug symbols).
+08-06 12:24:02.671 D/Mono    (12770): Image addref System.Collections.Concurrent[0xb45c48e0] -> System.Collections.Concurrent.dll[0xb4447000]: 2
+08-06 12:24:02.671 D/Mono    (12770): Prepared to set up assembly 'System.Collections.Concurrent' (System.Collections.Concurrent.dll)
+08-06 12:24:02.671 D/Mono    (12770): Assembly System.Collections.Concurrent[0xb45c48e0] added to domain RootDomain, ref_count=1
+08-06 12:24:02.671 D/Mono    (12770): AOT: image 'System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Collections.Concurrent.dll.so" not found
+08-06 12:24:02.676 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Collections.Concurrent.dll.so" not found
+08-06 12:24:02.676 D/Mono    (12770): Config attempting to parse: 'System.Collections.Concurrent.dll.config'.
+08-06 12:24:02.676 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections.Concurrent/System.Collections.Concurrent.config'.
+08-06 12:24:02.676 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Collections.Concurrent[0xb45c48e0]: 2
+08-06 12:24:02.676 D/Mono    (12770): Assembly Ref addref System.Collections.Concurrent[0xb45c48e0] -> mscorlib[0xb45c40a0]: 4
+Loaded assembly: System.Collections.Concurrent.dll [External]
+08-06 12:24:02.961 D/Mono    (12770): Image addref System.Threading[0xb45c4a00] -> System.Threading.dll[0xb4447a00]: 2
+08-06 12:24:02.961 D/Mono    (12770): Prepared to set up assembly 'System.Threading' (System.Threading.dll)
+08-06 12:24:02.961 D/Mono    (12770): Assembly System.Threading[0xb45c4a00] added to domain RootDomain, ref_count=1
+08-06 12:24:02.961 D/Mono    (12770): AOT: image 'System.Threading.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Threading.dll.so" not found
+08-06 12:24:02.961 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Threading.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Threading.dll.so" not found
+08-06 12:24:02.961 D/Mono    (12770): Config attempting to parse: 'System.Threading.dll.config'.
+08-06 12:24:02.961 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Threading/System.Threading.config'.
+08-06 12:24:02.961 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Threading[0xb45c4a00]: 2
+08-06 12:24:02.961 D/Mono    (12770): Assembly Ref addref System.Threading[0xb45c4a00] -> mscorlib[0xb45c40a0]: 5
+Loaded assembly: System.Threading.dll [External]
+08-06 12:24:03.061 D/Mono    (12770): Image addref System.Runtime.InteropServices[0xb45c4a60] -> System.Runtime.InteropServices.dll[0xb4447f00]: 2
+08-06 12:24:03.066 D/Mono    (12770): Prepared to set up assembly 'System.Runtime.InteropServices' (System.Runtime.InteropServices.dll)
+08-06 12:24:03.066 D/Mono    (12770): Assembly System.Runtime.InteropServices[0xb45c4a60] added to domain RootDomain, ref_count=1
+08-06 12:24:03.066 D/Mono    (12770): AOT: image 'System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Runtime.InteropServices.dll.so" not found
+08-06 12:24:03.066 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Runtime.InteropServices.dll.so" not found
+08-06 12:24:03.066 D/Mono    (12770): Config attempting to parse: 'System.Runtime.InteropServices.dll.config'.
+08-06 12:24:03.071 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.InteropServices/System.Runtime.InteropServices.config'.
+08-06 12:24:03.071 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Runtime.InteropServices[0xb45c4a60]: 2
+08-06 12:24:03.071 D/Mono    (12770): Assembly Ref addref System.Runtime.InteropServices[0xb45c4a60] -> mscorlib[0xb45c40a0]: 6
+Loaded assembly: System.Runtime.InteropServices.dll [External]
+08-06 12:24:03.101 D/Mono    (12770): DllImport attempting to load: '__Internal'.
+08-06 12:24:03.106 D/Mono    (12770): DllImport loaded library '(null)'.
+08-06 12:24:03.106 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.106 D/Mono    (12770): Searching for 'java_interop_jnienv_get_java_vm'.
+08-06 12:24:03.106 D/Mono    (12770): Probing 'java_interop_jnienv_get_java_vm'.
+08-06 12:24:03.106 D/Mono    (12770): Found as 'java_interop_jnienv_get_java_vm'.
+08-06 12:24:03.146 D/Mono    (12770): DllImport attempting to load: '__Internal'.
+08-06 12:24:03.146 D/Mono    (12770): DllImport loaded library '(null)'.
+08-06 12:24:03.146 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.146 D/Mono    (12770): Searching for '_monodroid_gref_log_new'.
+08-06 12:24:03.146 D/Mono    (12770): Probing '_monodroid_gref_log_new'.
+08-06 12:24:03.146 D/Mono    (12770): Found as '_monodroid_gref_log_new'.
+08-06 12:24:03.151 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.151 D/Mono    (12770): Searching for 'java_interop_jnienv_new_global_ref'.
+08-06 12:24:03.151 D/Mono    (12770): Probing 'java_interop_jnienv_new_global_ref'.
+08-06 12:24:03.151 D/Mono    (12770): Found as 'java_interop_jnienv_new_global_ref'.
+08-06 12:24:03.151 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.151 D/Mono    (12770): Searching for '_monodroid_gref_get'.
+08-06 12:24:03.151 D/Mono    (12770): Probing '_monodroid_gref_get'.
+08-06 12:24:03.151 D/Mono    (12770): Found as '_monodroid_gref_get'.
+08-06 12:24:03.191 D/Mono    (12770): Image addref System.Reflection[0xb45c4b80] -> System.Reflection.dll[0xb4448400]: 2
+08-06 12:24:03.191 D/Mono    (12770): Prepared to set up assembly 'System.Reflection' (System.Reflection.dll)
+08-06 12:24:03.191 D/Mono    (12770): Assembly System.Reflection[0xb45c4b80] added to domain RootDomain, ref_count=1
+08-06 12:24:03.191 D/Mono    (12770): AOT: image 'System.Reflection.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Reflection.dll.so" not found
+08-06 12:24:03.191 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Reflection.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Reflection.dll.so" not found
+08-06 12:24:03.191 D/Mono    (12770): Config attempting to parse: 'System.Reflection.dll.config'.
+08-06 12:24:03.191 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection/System.Reflection.config'.
+08-06 12:24:03.191 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Reflection[0xb45c4b80]: 2
+08-06 12:24:03.191 D/Mono    (12770): Assembly Ref addref System.Reflection[0xb45c4b80] -> mscorlib[0xb45c40a0]: 7
+Loaded assembly: System.Reflection.dll [External]
+08-06 12:24:03.276 D/Mono    (12770): Image addref System.Collections[0xb45c4940] -> System.Collections.dll[0xb4449300]: 2
+08-06 12:24:03.281 D/Mono    (12770): Prepared to set up assembly 'System.Collections' (System.Collections.dll)
+08-06 12:24:03.281 D/Mono    (12770): Assembly System.Collections[0xb45c4940] added to domain RootDomain, ref_count=1
+08-06 12:24:03.281 D/Mono    (12770): AOT: image 'System.Collections.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Collections.dll.so" not found
+08-06 12:24:03.286 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Collections.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Collections.dll.so" not found
+08-06 12:24:03.286 D/Mono    (12770): Config attempting to parse: 'System.Collections.dll.config'.
+08-06 12:24:03.286 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections/System.Collections.config'.
+08-06 12:24:03.286 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Collections[0xb45c4940]: 2
+08-06 12:24:03.286 D/Mono    (12770): Assembly Ref addref System.Collections[0xb45c4940] -> mscorlib[0xb45c40a0]: 8
+Loaded assembly: System.Collections.dll [External]
+08-06 12:24:03.326 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.326 D/Mono    (12770): Searching for 'java_interop_jnienv_find_class'.
+08-06 12:24:03.326 D/Mono    (12770): Probing 'java_interop_jnienv_find_class'.
+08-06 12:24:03.326 D/Mono    (12770): Found as 'java_interop_jnienv_find_class'.
+08-06 12:24:03.326 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.326 D/Mono    (12770): Searching for 'java_interop_jnienv_exception_clear'.
+08-06 12:24:03.326 D/Mono    (12770): Probing 'java_interop_jnienv_exception_clear'.
+08-06 12:24:03.326 D/Mono    (12770): Found as 'java_interop_jnienv_exception_clear'.
+08-06 12:24:03.326 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.326 D/Mono    (12770): Searching for 'java_interop_jnienv_call_object_method_a'.
+08-06 12:24:03.326 D/Mono    (12770): Probing 'java_interop_jnienv_call_object_method_a'.
+08-06 12:24:03.326 D/Mono    (12770): Found as 'java_interop_jnienv_call_object_method_a'.
+08-06 12:24:03.326 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.326 D/Mono    (12770): Searching for 'java_interop_jnienv_delete_local_ref'.
+08-06 12:24:03.331 D/Mono    (12770): Probing 'java_interop_jnienv_delete_local_ref'.
+08-06 12:24:03.331 D/Mono    (12770): Found as 'java_interop_jnienv_delete_local_ref'.
+08-06 12:24:03.336 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.336 D/Mono    (12770): Searching for '_monodroid_lref_log_new'.
+08-06 12:24:03.341 D/Mono    (12770): Probing '_monodroid_lref_log_new'.
+08-06 12:24:03.341 D/Mono    (12770): Found as '_monodroid_lref_log_new'.
+08-06 12:24:03.346 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.346 D/Mono    (12770): Searching for '_monodroid_lref_log_delete'.
+08-06 12:24:03.346 D/Mono    (12770): Probing '_monodroid_lref_log_delete'.
+08-06 12:24:03.346 D/Mono    (12770): Found as '_monodroid_lref_log_delete'.
+08-06 12:24:03.351 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.351 D/Mono    (12770): Searching for 'java_interop_jnienv_get_method_id'.
+08-06 12:24:03.351 D/Mono    (12770): Probing 'java_interop_jnienv_get_method_id'.
+08-06 12:24:03.351 D/Mono    (12770): Found as 'java_interop_jnienv_get_method_id'.
+08-06 12:24:03.356 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.356 D/Mono    (12770): Searching for '_monodroid_gref_log_delete'.
+08-06 12:24:03.356 D/Mono    (12770): Probing '_monodroid_gref_log_delete'.
+08-06 12:24:03.356 D/Mono    (12770): Found as '_monodroid_gref_log_delete'.
+08-06 12:24:03.361 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.361 D/Mono    (12770): Searching for 'java_interop_jnienv_delete_global_ref'.
+08-06 12:24:03.361 D/Mono    (12770): Probing 'java_interop_jnienv_delete_global_ref'.
+08-06 12:24:03.361 D/Mono    (12770): Found as 'java_interop_jnienv_delete_global_ref'.
+08-06 12:24:03.371 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.371 D/Mono    (12770): Searching for 'java_interop_jnienv_get_static_method_id'.
+08-06 12:24:03.371 D/Mono    (12770): Probing 'java_interop_jnienv_get_static_method_id'.
+08-06 12:24:03.371 D/Mono    (12770): Found as 'java_interop_jnienv_get_static_method_id'.
+08-06 12:24:03.381 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.386 D/Mono    (12770): Searching for 'java_interop_jnienv_call_static_object_method_a'.
+08-06 12:24:03.386 D/Mono    (12770): Probing 'java_interop_jnienv_call_static_object_method_a'.
+08-06 12:24:03.386 D/Mono    (12770): Found as 'java_interop_jnienv_call_static_object_method_a'.
+08-06 12:24:03.396 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.396 D/Mono    (12770): Searching for '_monodroid_get_identity_hash_code'.
+08-06 12:24:03.396 D/Mono    (12770): Probing '_monodroid_get_identity_hash_code'.
+08-06 12:24:03.396 D/Mono    (12770): Found as '_monodroid_get_identity_hash_code'.
+08-06 12:24:03.436 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.436 D/Mono    (12770): Searching for 'java_interop_jnienv_get_object_class'.
+08-06 12:24:03.436 D/Mono    (12770): Probing 'java_interop_jnienv_get_object_class'.
+08-06 12:24:03.436 D/Mono    (12770): Found as 'java_interop_jnienv_get_object_class'.
+08-06 12:24:03.436 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.436 D/Mono    (12770): Searching for 'java_interop_jnienv_call_object_method'.
+08-06 12:24:03.436 D/Mono    (12770): Probing 'java_interop_jnienv_call_object_method'.
+08-06 12:24:03.436 D/Mono    (12770): Found as 'java_interop_jnienv_call_object_method'.
+08-06 12:24:03.441 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.441 D/Mono    (12770): Searching for 'java_interop_jnienv_get_string_length'.
+08-06 12:24:03.441 D/Mono    (12770): Probing 'java_interop_jnienv_get_string_length'.
+08-06 12:24:03.441 D/Mono    (12770): Found as 'java_interop_jnienv_get_string_length'.
+08-06 12:24:03.446 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.446 D/Mono    (12770): Searching for 'java_interop_jnienv_get_string_chars'.
+08-06 12:24:03.446 D/Mono    (12770): Probing 'java_interop_jnienv_get_string_chars'.
+08-06 12:24:03.446 D/Mono    (12770): Found as 'java_interop_jnienv_get_string_chars'.
+08-06 12:24:03.451 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.451 D/Mono    (12770): Searching for 'java_interop_jnienv_release_string_chars'.
+08-06 12:24:03.451 D/Mono    (12770): Probing 'java_interop_jnienv_release_string_chars'.
+08-06 12:24:03.451 D/Mono    (12770): Found as 'java_interop_jnienv_release_string_chars'.
+08-06 12:24:03.456 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.456 D/Mono    (12770): Searching for 'monodroid_typemap_java_to_managed'.
+08-06 12:24:03.456 D/Mono    (12770): Probing 'monodroid_typemap_java_to_managed'.
+08-06 12:24:03.456 D/Mono    (12770): Found as 'monodroid_typemap_java_to_managed'.
+08-06 12:24:03.521 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.521 D/Mono    (12770): Searching for 'java_interop_jnienv_get_superclass'.
+08-06 12:24:03.521 D/Mono    (12770): Probing 'java_interop_jnienv_get_superclass'.
+08-06 12:24:03.521 D/Mono    (12770): Found as 'java_interop_jnienv_get_superclass'.
+08-06 12:24:03.601 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.601 D/Mono    (12770): Searching for 'java_interop_jnienv_is_instance_of'.
+08-06 12:24:03.601 D/Mono    (12770): Probing 'java_interop_jnienv_is_instance_of'.
+08-06 12:24:03.601 D/Mono    (12770): Found as 'java_interop_jnienv_is_instance_of'.
+08-06 12:24:03.606 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.606 D/Mono    (12770): Searching for '_monodroid_gref_log'.
+08-06 12:24:03.606 D/Mono    (12770): Probing '_monodroid_gref_log'.
+08-06 12:24:03.606 D/Mono    (12770): Found as '_monodroid_gref_log'.
+08-06 12:24:03.661 D/Mono    (12770): Image addref System.Linq[0xb45c4fa0] -> System.Linq.dll[0xb444bb00]: 2
+08-06 12:24:03.661 D/Mono    (12770): Prepared to set up assembly 'System.Linq' (System.Linq.dll)
+08-06 12:24:03.661 D/Mono    (12770): Assembly System.Linq[0xb45c4fa0] added to domain RootDomain, ref_count=1
+08-06 12:24:03.661 D/Mono    (12770): AOT: image 'System.Linq.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Linq.dll.so" not found
+08-06 12:24:03.661 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Linq.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Linq.dll.so" not found
+08-06 12:24:03.661 D/Mono    (12770): Config attempting to parse: 'System.Linq.dll.config'.
+08-06 12:24:03.661 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Linq/System.Linq.config'.
+08-06 12:24:03.661 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Linq[0xb45c4fa0]: 2
+08-06 12:24:03.666 D/Mono    (12770): Image addref System.Core[0xb45c4f40] -> System.Core.dll[0xb444b600]: 2
+08-06 12:24:03.666 D/Mono    (12770): Prepared to set up assembly 'System.Core' (System.Core.dll)
+08-06 12:24:03.666 D/Mono    (12770): Assembly System.Core[0xb45c4f40] added to domain RootDomain, ref_count=1
+08-06 12:24:03.671 D/Mono    (12770): AOT: image 'System.Core.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Core.dll.so" not found
+08-06 12:24:03.671 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Core.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Core.dll.so" not found
+08-06 12:24:03.671 D/Mono    (12770): Config attempting to parse: 'System.Core.dll.config'.
+08-06 12:24:03.671 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Core/System.Core.config'.
+08-06 12:24:03.671 D/Mono    (12770): Assembly Ref addref System.Linq[0xb45c4fa0] -> System.Core[0xb45c4f40]: 2
+08-06 12:24:03.671 D/Mono    (12770): Assembly Ref addref System.Core[0xb45c4f40] -> mscorlib[0xb45c40a0]: 9
+Loaded assembly: System.Linq.dll [External]
+Loaded assembly: System.Core.dll [External]
+08-06 12:24:03.691 D/Mono    (12770): Image addref System.Runtime.Extensions[0xb45c4ee0] -> System.Runtime.Extensions.dll[0xb444b100]: 2
+08-06 12:24:03.691 D/Mono    (12770): Prepared to set up assembly 'System.Runtime.Extensions' (System.Runtime.Extensions.dll)
+08-06 12:24:03.691 D/Mono    (12770): Assembly System.Runtime.Extensions[0xb45c4ee0] added to domain RootDomain, ref_count=1
+08-06 12:24:03.691 D/Mono    (12770): AOT: image 'System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Runtime.Extensions.dll.so" not found
+08-06 12:24:03.696 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Runtime.Extensions.dll.so" not found
+08-06 12:24:03.696 D/Mono    (12770): Config attempting to parse: 'System.Runtime.Extensions.dll.config'.
+08-06 12:24:03.696 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.Extensions/System.Runtime.Extensions.config'.
+08-06 12:24:03.696 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Runtime.Extensions[0xb45c4ee0]: 2
+08-06 12:24:03.696 D/Mono    (12770): Assembly Ref addref System.Runtime.Extensions[0xb45c4ee0] -> mscorlib[0xb45c40a0]: 10
+Loaded assembly: System.Runtime.Extensions.dll [External]
+08-06 12:24:03.721 D/Mono    (12770): Image addref System.Reflection.Extensions[0xb45c4d00] -> System.Reflection.Extensions.dll[0xb4722b00]: 2
+08-06 12:24:03.721 D/Mono    (12770): Prepared to set up assembly 'System.Reflection.Extensions' (System.Reflection.Extensions.dll)
+08-06 12:24:03.721 D/Mono    (12770): Assembly System.Reflection.Extensions[0xb45c4d00] added to domain RootDomain, ref_count=1
+08-06 12:24:03.726 D/Mono    (12770): AOT: image 'System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Reflection.Extensions.dll.so" not found
+08-06 12:24:03.726 D/Mono    (12770): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app/Cardapio.Cardapio-1/lib/arm/libaot-System.Reflection.Extensions.dll.so" not found
+08-06 12:24:03.726 D/Mono    (12770): Config attempting to parse: 'System.Reflection.Extensions.dll.config'.
+08-06 12:24:03.726 D/Mono    (12770): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection.Extensions/System.Reflection.Extensions.config'.
+08-06 12:24:03.726 D/Mono    (12770): Assembly Ref addref Java.Interop[0xb45c47c0] -> System.Reflection.Extensions[0xb45c4d00]: 2
+08-06 12:24:03.726 D/Mono    (12770): Assembly Ref addref System.Reflection.Extensions[0xb45c4d00] -> mscorlib[0xb45c40a0]: 11
+Loaded assembly: System.Reflection.Extensions.dll [External]
+08-06 12:24:03.771 D/Mono    (12770): Assembly Ref addref Mono.Android[0xb45c4700] -> System.Core[0xb45c4f40]: 3
+08-06 12:24:03.776 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.776 D/Mono    (12770): Searching for 'monodroid_typemap_managed_to_java'.
+08-06 12:24:03.776 D/Mono    (12770): Probing 'monodroid_typemap_managed_to_java'.
+08-06 12:24:03.776 D/Mono    (12770): Found as 'monodroid_typemap_managed_to_java'.
+08-06 12:24:03.826 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:03.826 D/Mono    (12770): Searching for 'java_interop_jnienv_alloc_object'.
+08-06 12:24:03.826 D/Mono    (12770): Probing 'java_interop_jnienv_alloc_object'.
+08-06 12:24:03.826 D/Mono    (12770): Found as 'java_interop_jnienv_alloc_object'.
+InspectorDebugSession(5): HandleTargetEvent: TargetHitBreakpoint
+InspectorDebugSession(5): StateChange: EntryPointBreakpointRegistered -> EntryPointBreakpointHit
+InspectorDebugSession(5): AgentBridge.InjectAssembly: /mnt/shell/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/inspector-temp/Xamarin.Interactive.dll
+08-06 12:24:04.031 D/Mono    (12770): Assembly Loader probing location: '/mnt/shell/emulated/0/Android/data/Cardapio.Cardapio/files/.__override__/inspector-temp/Xamarin.Interactive.dll'.
+InspectorDebugSession(5): AgentBridge.InjectAssembly: Mono.Debugger.Soft.InvocationException: Exception of type 'Mono.Debugger.Soft.InvocationException' was thrown.
+   at Mono.Debugger.Soft.InvocationsAPI.EndInvokeMethodInternalWithResultImpl(IAsyncResult asyncResult)
+   at Xamarin.Interactive.IdeSupport.AgentBridge.InjectAssembly(String agentAssemblyPath) in C:\d\lanes\4699\fec6f88f\source\xamarinvs\External\inspector-ide-integration\Xamarin.Interactive.IdeSupport\AgentBridge.cs:line 55
+   at Xamarin.Interactive.IdeSupport.InspectorDebuggerSession.<HandleTargetEvent>b__26_0(Object <p0>) in C:\d\lanes\4699\fec6f88f\source\xamarinvs\External\inspector-ide-integration\Xamarin.Interactive.IdeSupport\InspectorDebuggerSession.cs:line 242
+InspectorDebugSession(5): StateChange: EntryPointBreakpointHit -> Error
+InspectorDebugSession(5): Disposed
+08-06 12:24:04.426 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:04.426 D/Mono    (12770): Searching for 'java_interop_jnienv_register_natives'.
+08-06 12:24:04.426 D/Mono    (12770): Probing 'java_interop_jnienv_register_natives'.
+08-06 12:24:04.426 D/Mono    (12770): Found as 'java_interop_jnienv_register_natives'.
+08-06 12:24:04.436 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:04.436 D/Mono    (12770): Searching for 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+08-06 12:24:04.436 D/Mono    (12770): Probing 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+08-06 12:24:04.436 D/Mono    (12770): Found as 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+08-06 12:24:04.446 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:04.446 D/Mono    (12770): Searching for '_monodroid_gc_wait_for_bridge_processing'.
+08-06 12:24:04.446 D/Mono    (12770): Probing '_monodroid_gc_wait_for_bridge_processing'.
+08-06 12:24:04.446 D/Mono    (12770): Found as '_monodroid_gc_wait_for_bridge_processing'.
+08-06 12:24:04.456 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:04.456 D/Mono    (12770): Searching for 'java_interop_jnienv_is_same_object'.
+08-06 12:24:04.456 D/Mono    (12770): Probing 'java_interop_jnienv_is_same_object'.
+08-06 12:24:04.456 D/Mono    (12770): Found as 'java_interop_jnienv_is_same_object'.
+08-06 12:24:04.461 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:04.461 D/Mono    (12770): Searching for 'java_interop_jnienv_call_static_void_method_a'.
+08-06 12:24:04.461 D/Mono    (12770): Probing 'java_interop_jnienv_call_static_void_method_a'.
+08-06 12:24:04.461 D/Mono    (12770): Found as 'java_interop_jnienv_call_static_void_method_a'.
+08-06 12:24:04.466 D/Mono    (12770): Assembly Ref addref Cardapio[0xb45c41c0] -> Mono.Android[0xb45c4700]: 2
+08-06 12:24:04.611 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:04.611 D/Mono    (12770): Searching for 'java_interop_jnienv_get_array_length'.
+08-06 12:24:04.611 D/Mono    (12770): Probing 'java_interop_jnienv_get_array_length'.
+08-06 12:24:04.616 D/Mono    (12770): Found as 'java_interop_jnienv_get_array_length'.
+Loaded assembly: MonoDroidConstructors [External]
+08-06 12:24:04.761 D/Mono    (12770): Assembly Ref addref Cardapio[0xb45c41c0] -> mscorlib[0xb45c40a0]: 12
+08-06 12:24:07.841 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:07.846 D/Mono    (12770): Searching for 'java_interop_jnienv_new_string'.
+08-06 12:24:07.846 D/Mono    (12770): Probing 'java_interop_jnienv_new_string'.
+08-06 12:24:07.846 D/Mono    (12770): Found as 'java_interop_jnienv_new_string'.
+08-06 12:24:07.876 I/Timeline(12770): Timeline: Activity_launch_request id:Cardapio.Cardapio time:31701411
+08-06 12:24:08.381 D/PhoneWindow(12770): *FMB* installDecor mIsFloating : false
+08-06 12:24:08.381 D/PhoneWindow(12770): *FMB* installDecor flags : 8454400
+08-06 12:24:08.416 D/ViewRootImpl(12770): Buffer Count from app info with  ::-1 && -1 for :: Cardapio.Cardapio from View :: -1 DBQ Enabled ::false false
+08-06 12:24:08.416 D/OpenGLRenderer(12770): Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+08-06 12:24:08.426 V/ActivityThread(12770): updateVisibility : ActivityRecord{32b7dded token=android.os.BinderProxy@30d1133b {Cardapio.Cardapio/md5cb2ae13a71c285cb132f4e65caaa23e2.Apresentacao}} show : true
+08-06 12:24:08.511 D/PhoneWindow(12770): *FMB* installDecor mIsFloating : false
+08-06 12:24:08.511 D/PhoneWindow(12770): *FMB* installDecor flags : 8454400
+08-06 12:24:08.591 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:08.591 D/Mono    (12770): Searching for 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+08-06 12:24:08.591 D/Mono    (12770): Probing 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+08-06 12:24:08.591 D/Mono    (12770): Found as 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+08-06 12:24:08.646 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:08.646 D/Mono    (12770): Searching for 'java_interop_jnienv_call_void_method_a'.
+08-06 12:24:08.646 D/Mono    (12770): Probing 'java_interop_jnienv_call_void_method_a'.
+08-06 12:24:08.646 D/Mono    (12770): Found as 'java_interop_jnienv_call_void_method_a'.
+08-06 12:24:08.696 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:08.696 D/Mono    (12770): Searching for 'java_interop_jnienv_new_object_array'.
+08-06 12:24:08.696 D/Mono    (12770): Probing 'java_interop_jnienv_new_object_array'.
+08-06 12:24:08.696 D/Mono    (12770): Found as 'java_interop_jnienv_new_object_array'.
+08-06 12:24:08.716 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:08.716 D/Mono    (12770): Searching for 'java_interop_jnienv_new_local_ref'.
+08-06 12:24:08.716 D/Mono    (12770): Probing 'java_interop_jnienv_new_local_ref'.
+08-06 12:24:08.716 D/Mono    (12770): Found as 'java_interop_jnienv_new_local_ref'.
+08-06 12:24:08.726 D/Mono    (12770): DllImport searching in: '__Internal' ('(null)').
+08-06 12:24:08.726 D/Mono    (12770): Searching for 'java_interop_jnienv_set_object_array_element'.
+08-06 12:24:08.726 D/Mono    (12770): Probing 'java_interop_jnienv_set_object_array_element'.
+08-06 12:24:08.726 D/Mono    (12770): Found as 'java_interop_jnienv_set_object_array_element'.
+08-06 12:24:08.751 D/ViewRootImpl(12770): Buffer Count from app info with  ::-1 && -1 for :: Cardapio.Cardapio from View :: -1 DBQ Enabled ::false false
+08-06 12:24:08.756 D/PhoneWindow(12770): *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+08-06 12:24:08.756 D/PhoneWindow(12770): *FMB* isFloatingMenuEnabled return false
+08-06 12:24:08.786 D/libEGL  (12770): eglInitialize EGLDisplay = 0x9e1cfc54
+08-06 12:24:08.786 I/OpenGLRenderer(12770): Initialized EGL, version 1.4
+08-06 12:24:08.816 I/OpenGLRenderer(12770): HWUI protection enabled for context ,  &this =0x9dc578e0 ,&mEglDisplay = 1 , &mEglConfig = -1646869860 
+08-06 12:24:08.821 D/OpenGLRenderer(12770): Get maximum texture size. GL_MAX_TEXTURE_SIZE is 8192
+08-06 12:24:08.821 D/OpenGLRenderer(12770): Enabling debug mode 0
+08-06 12:24:08.821 D/mali_winsys(12770): new_window_surface returns 0x3000,  [540x960]-format:1
+08-06 12:24:08.826 D/PhoneWindow(12770): *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+08-06 12:24:08.826 D/PhoneWindow(12770): *FMB* isFloatingMenuEnabled return false
+08-06 12:24:08.916 D/mali_winsys(12770): new_window_surface returns 0x3000,  [540x960]-format:1
+08-06 12:24:08.941 V/ActivityThread(12770): updateVisibility : ActivityRecord{2b6c4756 token=android.os.BinderProxy@5800d3d {Cardapio.Cardapio/md5cb2ae13a71c285cb132f4e65caaa23e2.MainActivity}} show : true
+08-06 12:24:09.056 I/Timeline(12770): Timeline: Activity_idle id: android.os.BinderProxy@5800d3d time:31702594
+08-06 12:25:13.131 I/Timeline(12770): Timeline: Activity_idle id: android.os.BinderProxy@5800d3d time:31766665
+08-06 12:25:15.241 D/ViewRootImpl(12770): ViewPostImeInputStage ACTION_DOWN
+08-06 12:25:15.336 I/Timeline(12770): Timeline: Activity_launch_request id:Cardapio.Cardapio time:31768874
+08-06 12:25:15.396 D/PhoneWindow(12770): *FMB* installDecor mIsFloating : false
+08-06 12:25:15.396 D/PhoneWindow(12770): *FMB* installDecor flags : 8454400
+08-06 12:25:15.411 D/AbsListView(12770): Get MotionRecognitionManager
+08-06 12:25:15.411 E/MotionRecognitionManager(12770): mSContextService = null
+08-06 12:25:15.416 E/MotionRecognitionManager(12770): motionService = com.samsung.android.motion.IMotionRecognitionService$Stub$Proxy@1c087bde
+08-06 12:25:15.516 D/ViewRootImpl(12770): Buffer Count from app info with  ::-1 && -1 for :: Cardapio.Cardapio from View :: -1 DBQ Enabled ::false false
+08-06 12:25:15.526 D/PhoneWindow(12770): *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+08-06 12:25:15.526 D/PhoneWindow(12770): *FMB* isFloatingMenuEnabled return false
+08-06 12:25:15.611 D/mali_winsys(12770): new_window_surface returns 0x3000,  [540x960]-format:1
+08-06 12:25:15.776 D/OpenGLRenderer(12770): endAllStagingAnimators on 0x9dd0b800 (RippleDrawable) with handle 0x9def0e90
+08-06 12:25:15.781 I/Timeline(12770): Timeline: Activity_idle id: android.os.BinderProxy@339c77ea time:31769317
+08-06 12:25:16.046 V/ActivityThread(12770): updateVisibility : ActivityRecord{2b6c4756 token=android.os.BinderProxy@5800d3d {Cardapio.Cardapio/md5cb2ae13a71c285cb132f4e65caaa23e2.MainActivity}} show : false
+08-06 12:25:22.791 D/ViewRootImpl(12770): ViewPostImeInputStage ACTION_DOWN
+08-06 12:25:22.966 D/ViewRootImpl(12770): Buffer Count from app info with  ::-1 && -1 for :: Cardapio.Cardapio from View :: -1 DBQ Enabled ::false false
+08-06 12:25:29.536 V/ActivityThread(12770): updateVisibility : ActivityRecord{3ad4ea8f token=android.os.BinderProxy@339c77ea {Cardapio.Cardapio/md5cb2ae13a71c285cb132f4e65caaa23e2.AGridComFoto}} show : false

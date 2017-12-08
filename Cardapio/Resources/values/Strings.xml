@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Hello">Alerta</string>
+	<string name="ApplicationName">Cardapio</string>
+	<string name="aviso">Alerta com 1 opção</string>
+	<string name="avisobtn">Alerta com 3 opções</string>
+
+</resources>

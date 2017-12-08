@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25px">
+	<TextView
+		android:text="Usuário"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/lblUser" />
+	<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtUsuario2" />
+	<TextView
+			android:text="Senha"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/lblSenha2" />
+	<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtSenha2" />
+	<Button
+			android:text="Loguin"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnsLoguin2" />
+	<Button
+			android:text="Registrar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnRegistrar2"
+			style="@android:style/TextAppearance.Material.Button"
+			android:layout_margin="@android:dimen/notification_large_icon_height" />
+
+	<Button
+			android:text="List view com adapter abrir Google"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnExemplo3" />
+
+</LinearLayout>

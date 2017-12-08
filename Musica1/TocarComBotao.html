@@ -1,0 +1,131 @@
+﻿<body>
+	<button type="button" onclick="playSong()"> Tocar</button>
+	<button type="button" onclick="stopSong()"> Parar</button>
+</body>
+
+
+<script>
+	function BufferLoader(context, urlList, callback) {
+		this.context = context;
+		this.urlList = urlList;
+		this.onload = callback;
+		this.bufferList = new Array();
+		this.loadCount = 0;
+	}
+
+	BufferLoader.prototype.loadBuffer = function (url, index) {
+		// Load buffer asynchronously
+		var request = new XMLHttpRequest();
+		request.open("GET", url, true);
+		request.responseType = "arraybuffer";
+
+		var loader = this;
+
+		request.onload = function () {
+			// Asynchronously decode the audio file data in request.response
+			loader.context.decodeAudioData(
+			  request.response,
+			  function (buffer) {
+			  	if (!buffer) {
+			  		alert('error decoding file data: ' + url);
+			  		return;
+			  	}
+			  	loader.bufferList[index] = buffer;
+			  	if (++loader.loadCount == loader.urlList.length)
+			  		loader.onload(loader.bufferList);
+			  },
+			  function (error) {
+			  	console.error('decodeAudioData error', error);
+			  }
+			);
+		}
+
+		request.onerror = function () {
+			alert('BufferLoader: XHR error');
+		}
+
+		request.send();
+	}
+
+	BufferLoader.prototype.load = function () {
+		for (var i = 0; i < this.urlList.length; ++i)
+			this.loadBuffer(this.urlList[i], i);
+	}
+
+	let context = new AudioContext();
+
+	source = null;
+
+
+	//---------------------------------------------------------------
+
+	function playSong() {
+		BufferLoader = new BufferLoader(
+			context,
+			['/forrolaincasaEsperandoNaJanela.mp3'],
+			finischedLoading
+			);
+		BufferLoader.load();
+	}
+
+	function stopSong() {
+		source.stop();
+	}
+
+	//function finischedLoading(bufferList)
+	//{
+	//	source = context.createBufferSource();
+	//	source.buffer = bufferList[0];
+	//	source.connect(context.destination);
+	//	source.start(0);
+
+	//}
+
+	function finischedLoading(bufferList) {
+		
+		source = context.createBufferSource();
+		source.buffer = bufferList[0];
+
+		var modulationGain = context.createGain();
+		modulationGain.gain.value = 50;
+
+		source.connect(modulationGain);
+
+		var filter = context.createBiquadFilter();
+		filter.frequency.value = 493;
+		modulationGain.connect(filter);
+
+		filter.connect(context.destination);
+		source.start(0);
+
+	}
+	//https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API
+	//source = audioCtx.createMediaStreamSource(stream);
+	//source.connect(analyser);
+	//analyser.connect(distortion);
+	//distortion.connect(biquadFilter);
+	//biquadFilter.connect(convolver);
+	//convolver.connect(gainNode);
+	//gainNode.connect(audioCtx.destination);
+
+
+
+
+
+	//// Create the high frequency oscillator to be modulated
+	//var hfo = context.createOscillator();
+	//hfo.frequency.value = 440.0;
+
+	//// Create a gain node whose gain determines the amplitude of the modulation signal
+	//var modulationGain = context.createGain();
+	//modulationGain.gain.value = 50;
+
+	//// Configure the graph and start the oscillators
+	//lfo.connect(modulationGain);
+	//modulationGain.connect(hfo.detune);
+	//hfo.connect(context.destination);
+	//hfo.start(0);
+	//lfo.start(0);
+
+
+</script>

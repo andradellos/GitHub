@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Alerta.</string>
+    <string name="ApplicationName">Menu</string>
+	<string name="aviso">Contando click</string>
+	<string name="avisobtn">Alerta com 3 opções</string>
+
+	
+</resources>
