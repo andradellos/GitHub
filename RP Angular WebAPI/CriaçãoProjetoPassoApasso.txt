@@ -1,0 +1,10 @@
+Após instalação do :
+
+Node
+Typescript
+Angular CLI
+Yoman
+
+-1- Criar o projeto com o comando yoman
+
+yo aspnetcore spa
